@@ -9,6 +9,15 @@
     width: 100%;
   }
   
+  #page2 {
+    position: relative;
+    background-color: black;
+  }
+  
+  .page2-bg {
+    width: 100%;
+  }
+  
   .title {
     position: absolute;
     width: 20%;
@@ -342,6 +351,126 @@
     z-index: 1;
   }  
   
+  .fist {
+    position: absolute;
+    clip-path: polygon(40% 44%, 54% 48%, 62% 64%, 53% 75%, 36% 83%, 23% 100%, 0 100%, 0 75%, 20% 65%, 27% 52%);
+    width: 50%;
+    height: 50%;
+    top: 24%;
+    left: 17%;
+    background-color: #eddcb2;
+    z-index: 1;
+  }
+  
+  .thumb {
+    position: absolute;
+    width: 8%;
+    height: 3%;
+    top: 46%;
+    left: 30%;
+    border-radius: 50%;
+    rotate: -40deg;
+    z-index: 1;
+    background-image: linear-gradient(
+    90deg,
+    #eddcb2,
+    #ded0ad);
+  }
+  
+  .index {
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    top: 46%;
+    left: 33%;
+    border-radius: 50%;
+    rotate: -70deg;
+    z-index: 1;
+    background-image: linear-gradient(
+    90deg,
+    #eddcb2,
+    #e0d1ab);
+  }
+  
+  .line1 {
+    position: absolute;
+    clip-path: polygon(73% 38%, 64% 22%, 69% 19%, 78% 38%, 73% 52%, 52% 74%, 23% 93%, 22% 88%, 48% 71%, 65% 53%);
+    width: 10%;
+    height: 8%;
+    top: 43%;
+    left: 31%;
+    background-color: #c9bc9b;
+    z-index: 1;
+    rotate: -5deg;
+  }
+  
+  .line2 {
+    position: absolute;
+    clip-path: polygon(49% 61%, 53% 68%, 36% 81%, 32% 99%, 25% 100%, 31% 76%);
+    width: 14%;
+    height: 3%;
+    top: 45.5%;
+    left: 29.5%;
+    z-index: 1;
+    rotate: -23deg;
+    background-color: #c9bc9b;
+  }
+  
+  .line3 {
+    position: absolute;
+		clip-path: polygon(60% 48%, 60% 32%, 65% 32%, 65% 49%, 40% 69%, 11% 87%, 8% 83%, 31% 69%, 45% 58%);
+    width: 10%;
+    height: 5%;
+    top: 46.5%;
+    left: 37%;
+    z-index: 1;
+    rotate: -25deg;
+    background-color: #c9bc9b;
+  }
+  
+  .line4 {
+    position: absolute;
+		clip-path: polygon(60% 48%, 60% 32%, 65% 32%, 65% 49%, 40% 69%, 11% 87%, 8% 83%, 31% 69%, 45% 58%);
+    width: 13%;
+    height: 5%;
+    top: 50%;
+    left: 37.5%;
+    z-index: 1;
+    rotate: -15deg;
+    background-color: #c9bc9b;
+  }
+  
+  .line5 {
+    position: absolute;
+    clip-path: polygon(62% 63%, 77% 51%, 83% 54%, 68% 65%, 42% 80%, 11% 87%, 8% 83%, 38% 76%, 52% 70%);
+    width: 13%;
+    height: 5%;
+    top: 54%;
+    left: 37%;
+    z-index: 1;
+    background-color: #c9bc9b;
+    rotate: -10deg;
+  }
+  
+  .birdart {
+    position: absolute;
+    width: 60%;
+    height: 40%;
+    top: 20%;
+    left: 35%;
+    z-index: 1;
+    rotate: -20deg;
+  }
+  
+  .fieldart {
+    position: absolute;
+    width: 66.5%;
+    height: 60%;
+    top: 14%;
+    left: 16.75%;
+    z-index: 0.5;
+  }
+  
 </style>
 
 <div id="page1">
@@ -385,5 +514,22 @@
   <img class="with" src="with.png" alt="with">
   <img class="snow" src="snow.png" alt="snow">
   <img class="period2" src="period2.png" alt="period">
+  
+</div>
+
+<div id="page2">
+  
+  <img class="page2-bg" src="frame.png" alt="frame">
+  
+  <div class="fist"></div>
+  <div class="thumb"></div>
+  <div class="index"></div>
+  <div class="line1"></div>
+  <div class="line2"></div>
+  <div class="line3"></div>
+  <div class="line4"></div>
+  <div class="line5"></div>
+  <img class="birdart" src="birdart.png" alt="bird">
+  <img class="fieldart" src="fieldart.jpeg" alt="field">
   
 </div>
